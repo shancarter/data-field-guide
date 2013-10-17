@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Joining Two Datasets
+group: transforms
 language: r
 ---
 ```r

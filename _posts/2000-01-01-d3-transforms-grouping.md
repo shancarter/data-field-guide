@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Grouping
+group: transforms
 language: d3
 ---
 How you aggregate really depends on what you want. [Mister Nester](http://bl.ocks.org/shancarter/raw/4748131/) is useful for tinkering.

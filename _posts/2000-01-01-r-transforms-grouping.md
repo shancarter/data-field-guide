@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Aggregation
+group: transforms
 language: r
 ---
 ```r

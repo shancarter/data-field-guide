@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Filtering
+group: transforms
 language: r
 ---
 Return a new dataset that has only the elements that match given criteria.

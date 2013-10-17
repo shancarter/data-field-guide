@@ -1,3 +1,6 @@
-name: Your New Jekyll Site
+name: Kevin and Shan’s Data Field Guide
 markdown: redcarpet
+redcarpet:
+  extensions: [smart]
 pygments: true
+baseurl: /data-field-guide
