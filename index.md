@@ -25,7 +25,7 @@ layout: default
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{site.baseurl}}/{{ post.url }}"><h3>{{ post.title }} — {{post.language}}</h3></a>
+      <a href="{{site.baseurl}}{{ post.url }}"><h3>{{ post.title }} — {{post.language}}</h3></a>
       <p>{{ post.content }}</p>
     </li>
   {% endfor %}
