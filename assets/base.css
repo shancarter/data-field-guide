@@ -8,3 +8,27 @@ body {
 a {
   color: #f0f;
 }
+
+pre {
+  border-left: solid 6px #ddd;
+  background-color: #f0f0f0;
+  padding: 10px 10px 10px 20px;
+}
+
+.head {
+  padding: 30px 0;
+  text-align: center;
+  border-bottom: solid 1px #ddd;
+  font-family: Georgia;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.kicker {
+  font-size: 16px;
+  text-transform: uppercase;
+}
