@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Filtering
-language: js
+language: javascript
 ---
 Return a new dataset that has only the elements that match given criteria.
 

@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Sorting
-language: js
+language: javascript
 ---
 ```javascript
 //Simple alphabetical sort
