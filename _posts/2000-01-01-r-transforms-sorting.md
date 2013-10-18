@@ -9,7 +9,7 @@ language: r
 data <- data[order(data$fieldname),]
 
 #descending sort
-data <- data[order(data$fieldname, descending=TRUE),]
+data <- data[order(data$fieldname, decreasing=TRUE),]
 
 ```
 
