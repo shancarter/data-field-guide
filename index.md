@@ -29,8 +29,7 @@ layout: default
 
 </style>
 
-<label>Search</label>
-<input type="search"></input>
+
 
 <ul>
   {% for post in site.posts %}
