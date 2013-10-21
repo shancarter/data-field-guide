@@ -5,7 +5,7 @@ group: transforms
 language: r
 ---
 R's strsplit lets you break up strings into little chunks (called lists), which you can then pull out with another method called `sapply`.
-This is not the most efficient way to do this, but it;s presented here in multiple steps for clarity.
+This is not the most efficient way to do this, but it's presented here in multiple steps for clarity.
 
 ```r
 
@@ -19,7 +19,7 @@ get_second_element <- function(item) {
   return (item[2])
 }
 
-#use sapply to apply this function to each element
+# use sapply to apply this function to each element. the strange dashes here in front of the parens are because it's a special character.
 
 dirty_list <- strsplit(dirty, split = "\\(")
 
