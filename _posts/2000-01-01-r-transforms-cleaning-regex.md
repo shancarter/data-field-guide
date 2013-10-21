@@ -12,4 +12,6 @@ dirty <- c("VA)", "ID)", "KY)", "MO)", "CO)", "IL)", "IN)", "MS)", "NE)", "OH)")
 # get rid of right parentheses, replace them with nothing
 gsub("\\)", "", dirty)
 
+# returns "VA" "ID" "KY" "MO" "CO" "IL" "IN" "MS" "NE" "OH"
+
 ```
