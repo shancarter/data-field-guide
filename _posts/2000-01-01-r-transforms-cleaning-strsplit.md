@@ -21,6 +21,12 @@ get_second_element <- function(item) {
 
 # use sapply to apply this function to each element
 dirty_list <- strsplit(dirty, split = "\\(")
+
+#and use!
 sapply(dirty_list, get_second_element)
+
+#ps, when you're good and the function is this simple, you can do this all in one line
+
+sapply(strsplit(dirty, split="\\("), function(x) { x[2]} )
 
 ```
